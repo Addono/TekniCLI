@@ -4,14 +4,8 @@ describe('on', () => {
   test
   .stdout()
   .command(['on'])
-  .it('runs hello', ctx => {
-    expect(ctx.stdout).to.contain('hello world')
-  })
-
-  test
-  .stdout()
-  .command(['on', '--name', 'jeff'])
-  .it('runs hello --name jeff', ctx => {
-    expect(ctx.stdout).to.contain('hello jeff')
+  .exit(0)
+  .it('turns lights on', ctx => {
+    expect(ctx.stdout).to.contain('100%')
   })
 })
