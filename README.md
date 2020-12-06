@@ -1,7 +1,7 @@
-teknicli
+TekniCLI
 ========
 
-Control your teknilights from the command line.
+Control your TekniLights from the command line.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/teknicli.svg)](https://npmjs.org/package/teknicli)
