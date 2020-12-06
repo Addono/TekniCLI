@@ -20,7 +20,7 @@ $ npm install -g teknicli
 $ teknicli COMMAND
 running command...
 $ teknicli (-v|--version|version)
-teknicli/0.0.0 darwin-x64 node-v15.2.0
+teknicli/1.0.0 linux-x64 node-v12.20.0
 $ teknicli --help [COMMAND]
 USAGE
   $ teknicli COMMAND
@@ -46,7 +46,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/brightness.ts](https://github.com/Addono/teknicli/blob/v0.0.0/src/commands/brightness.ts)_
+_See code: [src/commands/brightness.ts](https://github.com/Addono/teknicli/blob/v1.0.0/src/commands/brightness.ts)_
 
 ## `teknicli help [COMMAND]`
 
@@ -77,7 +77,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/off.ts](https://github.com/Addono/teknicli/blob/v0.0.0/src/commands/off.ts)_
+_See code: [src/commands/off.ts](https://github.com/Addono/teknicli/blob/v1.0.0/src/commands/off.ts)_
 
 ## `teknicli on`
 
@@ -91,5 +91,5 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/on.ts](https://github.com/Addono/teknicli/blob/v0.0.0/src/commands/on.ts)_
+_See code: [src/commands/on.ts](https://github.com/Addono/teknicli/blob/v1.0.0/src/commands/on.ts)_
 <!-- commandsstop -->

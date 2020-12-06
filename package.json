@@ -1,7 +1,7 @@
 {
   "name": "teknicli",
   "description": "Control your teknilights from the command line.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Adriaan Knapen <hi@aknapen.nl>",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
